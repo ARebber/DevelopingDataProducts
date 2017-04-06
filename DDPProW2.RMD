@@ -1,0 +1,12 @@
+---
+title: "April 6th 2017"
+output: html_document
+---
+```{r, echo=FALSE, warning=FALSE}
+library(leaflet)
+m = leaflet() %>%
+    addTiles() %>%
+    addMarkers(lat=52.2454, lng=6.8489, popup="I work here!")
+m
+
+```
